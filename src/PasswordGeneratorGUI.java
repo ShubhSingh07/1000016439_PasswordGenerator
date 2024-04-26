@@ -19,10 +19,11 @@ public class PasswordGeneratorGUI extends JFrame {
 
     private void addGuiComponents(){
         JLabel titleLabel = new JLabel("Password Generator");
-        titleLabel.setFont(new Font("Dialog", Font.BOLD, 12));
+        titleLabel.setFont(new Font("Dialog", Font.BOLD, 32));
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         titleLabel.setBounds(0, 10, 540, 39);
         add(titleLabel);
+        
         JTextArea passwordOutput = new JTextArea();
         passwordOutput.setEditable(false);
         passwordOutput.setFont(new Font("Dialog", Font.BOLD, 32));
